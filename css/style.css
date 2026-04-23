@@ -596,15 +596,40 @@ nav { display: flex; align-items: center; gap: 1.6rem; }
 .team-card-v2 {
   background: var(--white);
   border-radius: var(--radius);
-  padding: 2rem 1.5rem;
+  padding: 2rem 1.5rem 2.5rem;
   text-align: center;
   transition: var(--transition);
   border-bottom: 3px solid transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+.team-card-v2::before {
+  content: '◇';
+  position: absolute;
+  bottom: -1rem;
+  right: -1rem;
+  font-size: 7rem;
+  color: var(--gold);
+  opacity: .04;
+  line-height: 1;
+  pointer-events: none;
 }
 .team-card-v2:hover {
   transform: translateY(-5px);
   box-shadow: var(--shadow);
   border-bottom-color: var(--gold);
+}
+.team-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
 }
 
 .team-photo-wrap {
@@ -644,6 +669,7 @@ nav { display: flex; align-items: center; gap: 1.6rem; }
   padding-left: 0;
   list-style: none;
   text-align: left;
+  flex: 1;
 }
 .team-profile li {
   font-family: 'Raleway', Arial, sans-serif;
