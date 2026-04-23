@@ -38,7 +38,7 @@ ul { list-style: none; }
 
 /* ── Typography ── */
 h1, h2, h3, h4 {
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: .02em;
@@ -162,10 +162,10 @@ p  { font-size: 1.05rem; }
 
 nav { display: flex; align-items: center; gap: 1.6rem; }
 .nav-link {
-  font-family: 'Montserrat', Arial, sans-serif;
-  font-size: .62rem;
-  font-weight: 600;
-  letter-spacing: .12em;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: .65rem;
+  font-weight: 400;
+  letter-spacing: .18em;
   text-transform: uppercase;
   color: rgba(255,255,255,.8);
   transition: color var(--transition);
@@ -188,10 +188,10 @@ nav { display: flex; align-items: center; gap: 1.6rem; }
 .nav-link:hover::after { width: 100%; }
 
 .btn-investor {
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: 'Raleway', Arial, sans-serif;
   font-size: .62rem;
-  font-weight: 600;
-  letter-spacing: .12em;
+  font-weight: 400;
+  letter-spacing: .18em;
   text-transform: uppercase;
   color: var(--gold);
   border: 1px solid var(--gold);
@@ -254,7 +254,7 @@ nav { display: flex; align-items: center; gap: 1.6rem; }
   position: fixed;
   inset: 0;
   background: rgba(6,15,26,.98);
-  z-index: 999;
+  z-index: 1100;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -274,6 +274,7 @@ nav { display: flex; align-items: center; gap: 1.6rem; }
   font-size: 2rem;
   cursor: pointer;
   line-height: 1;
+  z-index: 1;
 }
 
 /* ── Hero ── */
