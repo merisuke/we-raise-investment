@@ -20,15 +20,19 @@
 <header id="header">
   <div class="container header-inner">
     <a href="/" class="logo">
-      <img src="img/logo.svg" alt="We Raise Investment">
+      <div class="logo-mark">W</div>
+      <div class="logo-text">
+        <span class="logo-name">We Raise Investment</span>
+        <span class="logo-city">DUBAI</span>
+      </div>
     </a>
     <nav>
-      <a href="#philosophy" class="nav-link" data-i18n="nav.philosophy">Philosophy</a>
-      <a href="#services"   class="nav-link" data-i18n="nav.services">Services</a>
-      <a href="#numbers"    class="nav-link" data-i18n="nav.numbers">Track Record</a>
-      <a href="#about"      class="nav-link" data-i18n="nav.about">About</a>
-      <a href="company/"    class="nav-link" data-i18n="nav.company">Company</a>
-      <a href="#contact"    class="nav-link" data-i18n="nav.contact">Contact</a>
+      <a href="#about"      class="nav-link" data-i18n="nav.aboutus">ABOUT US</a>
+      <a href="#philosophy" class="nav-link" data-i18n="nav.strategy">INVESTMENT STRATEGY</a>
+      <a href="#services"   class="nav-link" data-i18n="nav.focus">FOCUS AREAS</a>
+      <a href="#numbers"    class="nav-link" data-i18n="nav.portfolio">PORTFOLIO</a>
+      <a href="#contact"    class="nav-link" data-i18n="nav.contact">CONTACT</a>
+      <a href="#" class="btn-investor" data-i18n="nav.login">INVESTOR LOGIN</a>
       <div class="lang-toggle">
         <button class="lang-btn" data-lang="en"><span>EN</span></button>
         <span style="color:rgba(255,255,255,.3);font-size:.6rem;">|</span>
@@ -44,12 +48,12 @@
 <!-- Mobile nav -->
 <div class="mobile-nav">
   <button class="mobile-nav-close" aria-label="Close">✕</button>
-  <a href="#philosophy" class="nav-link" data-i18n="nav.philosophy">Philosophy</a>
-  <a href="#services"   class="nav-link" data-i18n="nav.services">Services</a>
-  <a href="#numbers"    class="nav-link" data-i18n="nav.numbers">Track Record</a>
-  <a href="#about"      class="nav-link" data-i18n="nav.about">About</a>
-  <a href="company/"    class="nav-link" data-i18n="nav.company">Company</a>
-  <a href="#contact"    class="nav-link" data-i18n="nav.contact">Contact</a>
+  <a href="#about"      class="nav-link" data-i18n="nav.aboutus">ABOUT US</a>
+  <a href="#philosophy" class="nav-link" data-i18n="nav.strategy">INVESTMENT STRATEGY</a>
+  <a href="#services"   class="nav-link" data-i18n="nav.focus">FOCUS AREAS</a>
+  <a href="#numbers"    class="nav-link" data-i18n="nav.portfolio">PORTFOLIO</a>
+  <a href="#contact"    class="nav-link" data-i18n="nav.contact">CONTACT</a>
+  <a href="#" class="nav-link" data-i18n="nav.login">INVESTOR LOGIN</a>
   <div class="lang-toggle" style="margin-top:1rem;">
     <button class="lang-btn" data-lang="en"><span>EN</span></button>
     <span style="color:rgba(255,255,255,.3);">|</span>
@@ -59,24 +63,49 @@
 
 <!-- ══ HERO ══ -->
 <section id="hero">
-  <img src="img/hero-bg.svg" class="hero-bg" alt="" aria-hidden="true">
-  <div class="container">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+
+  <div class="container hero-container">
     <div class="hero-content">
-      <p class="hero-label label" data-i18n="hero.label">Dubai · UAE</p>
       <h1 class="hero-title">
-        <span data-i18n="hero.title1">Elevating Capital,</span><br>
-        <em data-i18n="hero.title2">Empowering Growth.</em>
+        <span class="hero-line1">We Raise</span>
+        <span class="hero-line2">Investment</span>
       </h1>
-      <p class="hero-desc" data-i18n="hero.desc">We Raise Investment LLC is a Dubai-based investment management firm dedicated to unlocking exceptional returns through disciplined strategy and trusted partnerships.</p>
-      <div class="hero-actions">
-        <a href="#services" class="btn btn-primary" data-i18n="hero.btn1">Our Services</a>
-        <a href="#contact"  class="btn btn-outline" data-i18n="hero.btn2">Contact Us</a>
-      </div>
+      <span class="hero-sep"></span>
+      <p class="hero-tagline" data-i18n="hero.tagline">FUELING AMBITION. BUILDING VALUE.<br>FROM DUBAI TO THE WORLD.</p>
+      <p class="hero-desc" data-i18n="hero.desc">We Raise Investmentは、ドバイを拠点とする投資ファンドです。グローバルな視点とローカルの知見を活かし、未来を創る企業と共に持続的な価値を創出します。</p>
+      <a href="#about" class="hero-btn" data-i18n="hero.btn">DISCOVER MORE
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="16" height="16"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
     </div>
   </div>
-  <div class="hero-scroll">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
-    <span data-i18n="hero.scroll">Scroll</span>
+
+  <!-- Bottom badges -->
+  <div class="hero-badges">
+    <div class="hero-badge-item">
+      <div class="hero-badge-icon">
+        <svg viewBox="0 0 24 24" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg>
+      </div>
+      <span class="hero-badge-en" data-i18n="badge.1.en">GLOBAL PERSPECTIVE</span>
+      <span class="hero-badge-ja" data-i18n="badge.1.ja">世界を見据えた投資</span>
+    </div>
+    <div class="hero-badge-divider"></div>
+    <div class="hero-badge-item">
+      <div class="hero-badge-icon">
+        <svg viewBox="0 0 24 24" stroke-width="1.5"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+      </div>
+      <span class="hero-badge-en" data-i18n="badge.2.en">DUBAI BASED</span>
+      <span class="hero-badge-ja" data-i18n="badge.2.ja">ドバイ発のグローバルファンド</span>
+    </div>
+    <div class="hero-badge-divider"></div>
+    <div class="hero-badge-item">
+      <div class="hero-badge-icon">
+        <svg viewBox="0 0 24 24" stroke-width="1.5"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+      </div>
+      <span class="hero-badge-en" data-i18n="badge.3.en">LONG-TERM VALUE</span>
+      <span class="hero-badge-ja" data-i18n="badge.3.ja">長期的な価値創出</span>
+    </div>
   </div>
 </section>
 

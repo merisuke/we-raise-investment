@@ -16,7 +16,13 @@
       "Bash(git add *)",
       "Bash(git commit *)",
       "Bash(git branch *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(wrangler --version)",
+      "Bash(npm --version)",
+      "Bash(npm install *)",
+      "Bash(~/.nvm/versions/node/v24.13.1/bin/wrangler --version)",
+      "Bash(export PATH=\"$HOME/.nvm/versions/node/v24.13.1/bin:$PATH\")",
+      "Bash(wrangler pages *)"
     ]
   }
 }
