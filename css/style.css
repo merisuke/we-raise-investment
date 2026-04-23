@@ -301,8 +301,8 @@ nav { display: flex; align-items: center; gap: 1.6rem; }
   position: relative;
   height: 100vh;
   min-height: 700px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 1fr auto;
   overflow: hidden;
 }
 
@@ -327,12 +327,13 @@ nav { display: flex; align-items: center; gap: 1.6rem; }
 }
 
 .hero-container {
-  flex: 1;
   display: flex;
   align-items: flex-end;
-  padding-bottom: 130px;
+  padding-top: 120px;
+  padding-bottom: 3rem;
   position: relative;
   z-index: 1;
+  align-self: stretch;
 }
 
 .hero-content { max-width: 660px; }
@@ -347,10 +348,10 @@ nav { display: flex; align-items: center; gap: 1.6rem; }
   display: flex;
   flex-direction: column;
   font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: clamp(3.2rem, 7.5vw, 6.2rem);
+  font-size: clamp(2.6rem, 5.5vw, 5rem);
   font-weight: 600;
   color: var(--white);
-  line-height: 1;
+  line-height: 1.05;
   margin: 0;
   letter-spacing: .01em;
 }
