@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company — We Raise Investment LLC</title>
+  <meta name="description" content="Company profile of We Raise Investment LLC, a licensed investment management firm based in Dubai, UAE.">
+  <link rel="icon" href="../img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+    .team-card {
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 2rem;
+      text-align: center;
+      transition: var(--transition);
+    }
+    .team-card:hover { box-shadow: var(--shadow); transform: translateY(-4px); }
+    .team-avatar {
+      width: 80px; height: 80px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--navy), var(--navy-light));
+      margin: 0 auto 1rem;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .team-avatar span {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: var(--gold);
+    }
+    .team-name { color: var(--navy); margin-bottom: .25rem; font-size: 1.1rem; }
+    .team-role {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: .65rem;
+      font-weight: 700;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+    .reg-table { width: 100%; border-collapse: collapse; margin-top: 2rem; }
+    .reg-table tr { border-bottom: 1px solid var(--gray-200); }
+    .reg-table td { padding: 1rem .5rem; font-size: .95rem; color: var(--gray-700); }
+    .reg-table td:first-child {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: .7rem;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--navy);
+      width: 35%;
+    }
+    @media (max-width: 768px) {
+      .team-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 480px) {
+      .team-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header id="header">
+  <div class="container header-inner">
+    <a href="/" class="logo">
+      <img src="../img/logo.svg" alt="We Raise Investment">
+    </a>
+    <nav>
+      <a href="/#philosophy" class="nav-link" data-i18n="nav.philosophy">Philosophy</a>
+      <a href="/#services"   class="nav-link" data-i18n="nav.services">Services</a>
+      <a href="/#numbers"    class="nav-link" data-i18n="nav.numbers">Track Record</a>
+      <a href="/#about"      class="nav-link" data-i18n="nav.about">About</a>
+      <a href="/company/"    class="nav-link active" data-i18n="nav.company">Company</a>
+      <a href="/#contact"    class="nav-link" data-i18n="nav.contact">Contact</a>
+      <div class="lang-toggle">
+        <button class="lang-btn" data-lang="en"><span>EN</span></button>
+        <span style="color:rgba(255,255,255,.3);font-size:.6rem;">|</span>
+        <button class="lang-btn" data-lang="ja"><span>JA</span></button>
+      </div>
+    </nav>
+    <button class="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Mobile nav -->
+<div class="mobile-nav">
+  <button class="mobile-nav-close" aria-label="Close">✕</button>
+  <a href="/#philosophy" class="nav-link">Philosophy</a>
+  <a href="/#services"   class="nav-link">Services</a>
+  <a href="/#numbers"    class="nav-link">Track Record</a>
+  <a href="/#about"      class="nav-link">About</a>
+  <a href="/company/"    class="nav-link">Company</a>
+  <a href="/#contact"    class="nav-link">Contact</a>
+  <div class="lang-toggle" style="margin-top:1rem;">
+    <button class="lang-btn" data-lang="en"><span>EN</span></button>
+    <span style="color:rgba(255,255,255,.3);">|</span>
+    <button class="lang-btn" data-lang="ja"><span>JA</span></button>
+  </div>
+</div>
+
+<!-- PAGE HEADER -->
+<div class="page-header">
+  <div class="container">
+    <span class="section-label">Company</span>
+    <h1 style="margin-top:.75rem;">We Raise Investment LLC</h1>
+    <p style="color:rgba(255,255,255,.6); margin-top:1rem; font-size:1.1rem;">Dubai International Financial Centre · UAE</p>
+  </div>
+</div>
+
+<!-- PAGE CONTENT -->
+<div class="page-content">
+  <div class="container" style="max-width:900px;">
+
+    <!-- Overview -->
+    <section class="reveal" style="margin-bottom:5rem;">
+      <span class="section-label">Overview</span>
+      <h2 class="section-title" style="margin-top:.5rem;">Company Overview</h2>
+      <div class="divider"></div>
+      <div class="prose">
+        <p>We Raise Investment LLC is a licensed investment management firm headquartered in the Dubai International Financial Centre (DIFC), one of the world's leading financial hubs. Established in 2010, the firm has built a track record of delivering superior risk-adjusted returns across multiple asset classes and geographies.</p>
+        <p>Operating under the regulatory framework of the Dubai Financial Services Authority (DFSA), we maintain the highest standards of governance, compliance, and investor protection. Our team of seasoned investment professionals brings decades of experience across global capital markets, private equity, and alternative investments.</p>
+        <p>We serve a select group of high-net-worth individuals, family offices, sovereign wealth funds, and institutional investors, providing bespoke investment solutions tailored to each client's objectives and risk profile.</p>
+      </div>
+    </section>
+
+    <!-- Registration -->
+    <section class="reveal" style="margin-bottom:5rem;">
+      <span class="section-label">Legal Information</span>
+      <h2 class="section-title" style="margin-top:.5rem;">Company Information</h2>
+      <div class="divider"></div>
+      <table class="reg-table">
+        <tr><td>Company Name</td><td>We Raise Investment LLC</td></tr>
+        <tr><td>Jurisdiction</td><td>Dubai International Financial Centre (DIFC), UAE</td></tr>
+        <tr><td>License Type</td><td>Authorised Firm — Investment Management</td></tr>
+        <tr><td>Regulator</td><td>Dubai Financial Services Authority (DFSA)</td></tr>
+        <tr><td>Established</td><td>2010</td></tr>
+        <tr><td>Address</td><td>Dubai International Financial Centre, Dubai, United Arab Emirates</td></tr>
+        <tr><td>Email</td><td>info@weraiseinvestment.com</td></tr>
+      </table>
+    </section>
+
+    <!-- Leadership -->
+    <section class="reveal" style="margin-bottom:5rem;">
+      <span class="section-label">Leadership</span>
+      <h2 class="section-title" style="margin-top:.5rem;">Management Team</h2>
+      <div class="divider"></div>
+      <div class="team-grid">
+        <div class="team-card reveal reveal-delay-1">
+          <div class="team-avatar"><span>CE</span></div>
+          <h3 class="team-name">Chief Executive</h3>
+          <p class="team-role">Chief Executive Officer</p>
+        </div>
+        <div class="team-card reveal reveal-delay-2">
+          <div class="team-avatar"><span>CI</span></div>
+          <h3 class="team-name">Chief Investment</h3>
+          <p class="team-role">Chief Investment Officer</p>
+        </div>
+        <div class="team-card reveal reveal-delay-3">
+          <div class="team-avatar"><span>CO</span></div>
+          <h3 class="team-name">Chief Operations</h3>
+          <p class="team-role">Chief Operating Officer</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission -->
+    <section class="reveal" style="background:var(--navy-dark); border-radius:var(--radius); padding:3rem 3.5rem; margin-bottom:3rem;">
+      <span class="section-label" style="color:var(--gold);">Our Mission</span>
+      <h2 style="color:var(--white); margin:.75rem 0 1.5rem; font-size:1.8rem;">"To be the most trusted investment partner for the world's discerning capital."</h2>
+      <div class="divider"></div>
+      <p style="color:rgba(255,255,255,.65); font-size:1rem; line-height:1.8;">We measure our success not just in returns, but in the lasting relationships we build and the positive impact our investments create across markets, industries, and communities.</p>
+    </section>
+
+    <div style="text-align:center; margin-top:3rem;">
+      <a href="/#contact" class="btn btn-primary">Get In Touch</a>
+      <a href="/" class="btn btn-outline" style="margin-left:1rem;">Back to Home</a>
+    </div>
+
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer id="footer">
+  <div class="container footer-inner">
+    <a href="/" class="logo">
+      <img src="../img/logo.svg" alt="We Raise Investment" style="height:36px;">
+    </a>
+    <div class="footer-links">
+      <a href="/company/">Company</a>
+      <a href="/privacy/">Privacy Policy</a>
+    </div>
+    <p class="footer-copy" data-i18n="footer.copy">© 2025 We Raise Investment LLC. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
