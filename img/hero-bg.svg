@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060f1a"/>
+      <stop offset="60%" stop-color="#0d1b2e"/>
+      <stop offset="100%" stop-color="#112240"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8d5a3" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#c9a84c" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="900" fill="url(#bg)"/>
+  <!-- Large diamond -->
+  <polygon points="900,100 1150,450 900,800 650,450" fill="url(#gold)" stroke="#c9a84c" stroke-width="0.5" stroke-opacity="0.3"/>
+  <!-- Medium diamond -->
+  <polygon points="1100,50 1280,300 1100,550 920,300" fill="none" stroke="#c9a84c" stroke-width="0.5" stroke-opacity="0.2"/>
+  <!-- Small diamond accent -->
+  <polygon points="200,600 280,700 200,800 120,700" fill="none" stroke="#c9a84c" stroke-width="0.5" stroke-opacity="0.15"/>
+  <!-- Horizontal lines -->
+  <line x1="0" y1="450" x2="600" y2="450" stroke="#c9a84c" stroke-width="0.3" stroke-opacity="0.2"/>
+  <line x1="0" y1="460" x2="400" y2="460" stroke="#c9a84c" stroke-width="0.2" stroke-opacity="0.1"/>
+  <!-- Grid dots -->
+  <g fill="#c9a84c" opacity="0.1">
+    <circle cx="100" cy="200" r="1.5"/>
+    <circle cx="200" cy="300" r="1"/>
+    <circle cx="150" cy="500" r="1.5"/>
+    <circle cx="300" cy="150" r="1"/>
+    <circle cx="400" cy="700" r="1.5"/>
+    <circle cx="500" cy="250" r="1"/>
+  </g>
+</svg>

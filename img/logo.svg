@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" fill="none">
+  <!-- Diamond mark -->
+  <polygon points="20,6 34,24 20,42 6,24" fill="#c9a84c"/>
+  <polygon points="20,12 30,24 20,36 10,24" fill="#0d1b2e"/>
+  <polygon points="20,18 26,24 20,30 14,24" fill="#c9a84c"/>
+  <!-- WR logotype -->
+  <text x="44" y="19" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#c9a84c" letter-spacing="2">WE RAISE</text>
+  <text x="44" y="36" font-family="Georgia, serif" font-size="10" fill="#ffffff" letter-spacing="3">INVESTMENT</text>
+</svg>
