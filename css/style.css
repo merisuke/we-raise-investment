@@ -147,37 +147,17 @@ p  { font-size: 1.05rem; }
 
 /* Logo */
 .logo {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: .6rem;
   text-decoration: none;
+  flex-shrink: 0;
 }
-.logo-mark {
-  font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: 2.6rem;
-  font-weight: 700;
-  color: var(--gold);
-  line-height: 1;
+.logo img {
+  height: 52px;
+  width: auto;
 }
-.logo-text {
-  display: flex;
-  flex-direction: column;
-  gap: .1rem;
-}
-.logo-name {
-  font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: .95rem;
-  font-weight: 600;
-  color: var(--white);
-  letter-spacing: .04em;
-  line-height: 1;
-}
-.logo-city {
-  font-family: 'Montserrat', Arial, sans-serif;
-  font-size: .55rem;
-  font-weight: 700;
-  letter-spacing: .28em;
-  color: var(--gold);
+#footer .logo img {
+  height: 42px;
 }
 
 nav { display: flex; align-items: center; gap: 1.6rem; }
