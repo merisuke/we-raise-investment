@@ -84,6 +84,16 @@ const TRANSLATIONS = {
     'form.message':   'Message',
     'form.submit':    'Send Message',
     'footer.copy':    '© 2025 We Raise Investment LLC. All rights reserved.',
+    'team.label':     'Our People',
+    'team.title':     'Team Members',
+    'team.max.role':     'Chief Investment &amp; Trading Officer (CITO)',
+    'team.max.profile':  '<li>20+ years of expertise in financial markets</li><li>Advanced risk management and systematic trading strategies</li><li>Proven track record of performance</li><li>Market cycle &amp; trend analysis specialist</li><li>Top Mortgage Salesperson — 5 years</li><li>Real Estate Agent — 5 years</li><li>Real Estate Investment — Since 2016</li><li>Forex &amp; Gold Trading — Since 2020</li>',
+    'team.ayaka.role':   'CEO',
+    'team.ayaka.profile':'<li>Entrepreneur</li><li>Regenerative Medicine Clinic Advisor</li><li>Beauty product development, manufacturing, sales &amp; export</li><li>Mother of 3 — preparing to establish an NPO &amp; public interest foundation for next-generation education</li>',
+    'team.eriko.role':   'CTO &amp; Operations Management',
+    'team.eriko.profile':'<li>10 years as a systems engineer at a major foreign IT company</li><li>Management of 2 companies</li><li>Studying crypto asset investment since 2022, investing personal assets in crypto</li>',
+    'team.keisuke.role':    'Enterprise Services Consultant',
+    'team.keisuke.profile': '<li>10+ years living in Dubai</li><li>Established a trading company in Dubai in 2021</li><li>Supported ~10 Japanese companies in corporate establishment</li><li>Running a wholesale business for knives, tableware &amp; cooking utensils</li><li>Business support &amp; translation services</li>',
   },
   ja: {
     'nav.aboutus':    'ABOUT US',
@@ -165,6 +175,16 @@ const TRANSLATIONS = {
     'form.message':   'メッセージ',
     'form.submit':    '送信する',
     'footer.copy':    '© 2025 We Raise Investment LLC. All rights reserved.',
+    'team.label':     'チーム',
+    'team.title':     'チームメンバー',
+    'team.max.role':     '最高投資・トレーディング責任者（CITO）',
+    'team.max.profile':  '<li>20年以上の金融市場における専門知識</li><li>高度なリスク管理と体系的なトレーディング戦略</li><li>実績あるパフォーマンス</li><li>市場サイクル・トレンド分析のスペシャリスト</li><li>トップ住宅ローン営業 — 5年</li><li>不動産エージェント — 5年</li><li>不動産投資 — 2016年より</li><li>外国為替・金トレーディング — 2020年より</li>',
+    'team.ayaka.role':   'CEO',
+    'team.ayaka.profile':'<li>起業家</li><li>再生医療クリニック顧問</li><li>美容商材開発・製造販売・輸出</li><li>3児の母。子育て経験をもとにした次世代の教育のためのNPO法人、公益財団法人の設立準備中</li>',
+    'team.eriko.role':   'CTO・オペレーション管理',
+    'team.eriko.profile':'<li>大手外資系IT企業で10年システムエンジニアとして勤務</li><li>法人2社経営</li><li>2022年より暗号資産投資を学び、個人資産を暗号資産に投資</li>',
+    'team.keisuke.role':    'エンタープライズ・サービス・コンサルタント',
+    'team.keisuke.profile': '<li>ドバイ在住10年以上</li><li>2021年に現地で貿易会社を設立</li><li>日本企業約10社の法人設立支援</li><li>包丁・食器・調理器具を卸す専門商社を経営</li><li>ビジネス支援や翻訳にも対応</li>',
   }
 };
 
