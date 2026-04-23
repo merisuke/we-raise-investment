@@ -335,6 +335,13 @@ nav { display: flex; align-items: center; gap: 1.6rem; }
   margin: 0;
   letter-spacing: .01em;
 }
+.hero-title-img {
+  width: min(580px, 90%);
+  height: auto;
+  display: block;
+  opacity: 0;
+  animation: heroEnter 1s ease .3s forwards;
+}
 .hero-line1 {
   display: block;
   opacity: 0;
